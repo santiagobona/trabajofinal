@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=PT+Sans+Narrow&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+
+header{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: $color;
+}
+nav ul li{
+display: inline-block;
+font-family: 'Lato', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+margin-bottom: 10px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    a{
+        font-size: 30px;
+        color: $black-color;
+        text-decoration: none;
+        font: bold;
+    }
+}
+nav{
+    background-color: $color;
+    z-index: 1;
+}
+ 
+
+

@@ -1,0 +1,27 @@
+footer{
+    text-decoration: none;
+    list-style: none;
+    grid-area: footer;
+    background-color: $color;
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
+    align-self: flex-end;
+  }
+  .threecontainer{
+    padding-top: 40px;
+
+}
+  .logo_footer{
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 500px){
+    footer {
+        grid-template-columns:  1fr 1fr ;
+        grid-template-rows:  1fr 1fr 1fr ;
+        grid-template-areas: "facebook" "instagram"
+                              "twitter" "youtube"
+                                             
+       }
+}
